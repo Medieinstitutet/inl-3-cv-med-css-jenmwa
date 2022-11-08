@@ -1,0 +1,72 @@
+
+
+body {
+    background-image: url("../img/background_tablet.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    max-width: 75vw;
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.75;
+        padding-top: 1rem;
+    }
+}
+
+.nav-container {
+    padding: 1rem 8rem;
+ }
+
+.introduction {
+    padding-top: 2rem;
+    
+
+    h1 {
+        margin: 0;
+        max-width: 50%;
+        }
+
+    p {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    }
+    
+    .arrow {
+        font-size: 5rem;
+    }
+
+}
+
+.about {
+    p {
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    }
+}
+
+.knowledge {
+
+    p, li{
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    }
+
+
+    .developer, .studies {
+        padding: 0 1rem;
+    }
+
+}
+
+.portfolio {
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+footer {
+    font-size: 1.25rem;
+}
